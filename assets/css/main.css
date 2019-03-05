@@ -100,9 +100,9 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
-		font-size: 16pt;
-		font-weight: 400;
+		font-family:  Helvetica, 'PingFang SC', "Source Sans Pro",'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
+		font-size: 14pt;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
@@ -112,7 +112,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #787878;
+		color: #464646;
 		text-decoration: none;
 	}
 
@@ -123,7 +123,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
+		color: #464646;
 		font-weight: 400;
 	}
 
@@ -136,7 +136,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #464646;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1776,7 +1776,7 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #565654;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -1812,7 +1812,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #787878;
+		color: #464646;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -1852,7 +1852,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #1a1a1a;
+			border-color: #464646;
 		}
 
 	select {
@@ -1866,7 +1866,7 @@ input, select, textarea {
 	}
 
 		select option {
-			color: #787878;
+			color: #464646;
 			background: #fff;
 		}
 
@@ -1944,15 +1944,15 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #787878;
-			border-color: #787878;
+			background: #464646;
+			border-color: #464646;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #1a1a1a;
+			border-color: #464646;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2130,7 +2130,7 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius:0%;
 		}
 
 			.image.avatar:before {
@@ -2138,7 +2138,7 @@ input, select, textarea {
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
+				/* border-radius: 100%; */
 				width: 100%;
 			}
 
@@ -2384,7 +2384,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #787878;
+			color: #464646;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2442,7 +2442,7 @@ input, select, textarea {
 		background-color: transparent;
 		/* border-radius: 0.35em; */
 		border: solid 3px #efefef;
-		color: #787878 !important;
+		color: #464646 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
@@ -2460,8 +2460,8 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #1a1a1a;
-			color: #1a1a1a !important;
+			border-color: #464646;
+			color: #464646 !important;
 		}
 
 		input[type="submit"]:active,
@@ -2469,8 +2469,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #1a1a1a;
-			color: #1a1a1a !important;
+			border-color: #464646;
+			color: #464646 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2513,8 +2513,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #1a1a1a;
-			border-color: #1a1a1a;
+			background-color: #464646;
+			border-color: #464646;
 			color: #ffffff !important;
 		}
 
@@ -2587,9 +2587,9 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #1a1a1a;
+		background-color: #fff;
 		background-attachment: scroll,								scroll;
-		background-image: url("../../images/bg.jpg");
+		/* background-image: url("../../images/bg.jpg"); */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2601,6 +2601,7 @@ input, select, textarea {
 		text-align: right;
 		top: 0;
 		width: 35%;
+		border-right: 1px solid #f2f2f2;
 	}
 
 		#header > * {
@@ -2617,10 +2618,11 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
+			margin-top: 10vh;
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #464646;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2628,15 +2630,15 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
-			font-size: 1.35em;
+			color: rgba(0,0,0,0.5);
+			font-size: 3em;
 			line-height: 1.75em;
 			margin: 0;
 		}
 
 		#header .image.avatar {
-			margin: 0 0 1em 0;
-			width: 6.25em;
+			/* margin: 0 0 1em 0; */
+			width: 8em;
 		}
 
 /* Footer */
@@ -2650,7 +2652,7 @@ input, select, textarea {
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(0, 0, 0, 0.4);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
@@ -2972,6 +2974,11 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 34%;
+				text-align: center;
+			}
+
+			#header h1 {
+				font-size: 2.4em;
 			}
 
 		/* Basic */
@@ -2986,7 +2993,7 @@ input, select, textarea {
 			}
 
 			h2{
-				font-size: 2em;
+				font-size: 1.6em;
 			}
 
 	}
@@ -3003,7 +3010,7 @@ input, select, textarea {
 			}
 
 				#header h1 {
-					font-size: 1.25em;
+					font-size: 2.2em;
 				}
 
 					#header h1 br {
@@ -3019,7 +3026,7 @@ input, select, textarea {
 				}
 
 				h2{
-					font-size: 2em;
+					font-size: 1.6em;
 				}
 
 		/* Footer */
@@ -3054,11 +3061,11 @@ input, select, textarea {
 			}
 
 			h1{
-				font-size: 2.8em;
+				font-size: 3em;
 			}
 
 			h2{
-				font-size: 2em;
+				font-size: 1.6em;
 			}
 
 		/* List */
@@ -3080,11 +3087,12 @@ input, select, textarea {
 				top: auto;
 				width: 100%;
 				display: block;
+				border-bottom: 1px solid #f2f2f2;
 			}
 
-				#header h1 {
-					font-size: 1.75em;
-				}
+				/* #header h1 {
+					font-size: 2.6em;
+				} */
 
 					#header h1 br {
 						display: inline;
@@ -3094,8 +3102,8 @@ input, select, textarea {
 
 			#footer {
 				background-attachment: scroll;
-				background-color: #1a1a1a;
-				background-image: url("../../images/bg.jpg");
+				background-color: #fff;
+				/* background-image: url("../../images/bg.jpg"); */
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3144,7 +3152,7 @@ input, select, textarea {
 			}
 
 			h2{
-				font-size: 2em;
+				font-size: 1.6em;
 			}
 
 			h3 {
@@ -3179,9 +3187,9 @@ input, select, textarea {
 				padding: 2.25em 1.5em;
 			}
 
-				#header h1 {
-					font-size: 1.35em;
-				}
+				/* #header h1 {
+					font-size: 2.6em;
+				} */
 
 		/* Footer */
 
