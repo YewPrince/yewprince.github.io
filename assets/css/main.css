@@ -199,8 +199,12 @@ input, select, textarea {
 	}
 
 	img{
-		width: 100%;
+		width: auto;
 	}
+
+		img.page{
+			width: 100%;
+		}
 
 	hr {
 		border: 0;
