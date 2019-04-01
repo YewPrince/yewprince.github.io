@@ -2635,7 +2635,7 @@ input, select, textarea {
 			-ms-flex-grow: 1;
 			flex-grow: 1;
 			margin: 0 0 2em 0;
-			margin-top: 20vh;
+			/* margin-top: 20vh; */
 		}
 
 		#header strong, #header b {
@@ -2984,7 +2984,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (max-width: 2800px) {
 
 		/* Header */
 
@@ -2992,6 +2992,10 @@ input, select, textarea {
 				padding: 2em 3em 3em 3em;
 				width: 28%;
 				text-align: center;
+			}
+
+			#header > .inner {
+				margin-top: 20vh;
 			}
 
 			#header h1 {
@@ -3024,6 +3028,10 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 24%;
+			}
+
+			#header > .inner {
+				margin-top: 20vh;
 			}
 
 				#header h1 {
@@ -3105,6 +3113,10 @@ input, select, textarea {
 				width: 100%;
 				display: block;
 				border-bottom: 1px solid #f2f2f2;
+			}
+
+			#header > .inner {
+				margin-top: 20vh;
 			}
 
 				/* #header h1 {
@@ -3204,6 +3216,10 @@ input, select, textarea {
 				padding: 2.25em 1.5em;
 			}
 
+			#header > .inner {
+				margin-top: 10vh;
+			}
+
 				/* #header h1 {
 					font-size: 2.6em;
 				} */
@@ -3246,6 +3262,10 @@ input, select, textarea {
 
 			#header {
 				padding: 4.5em 1.5em;
+			}
+
+			#header > .inner {
+				margin-top: 10vh;
 			}
 
 				#header h1 br {
