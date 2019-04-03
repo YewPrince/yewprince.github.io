@@ -22,7 +22,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	color: #464646;
+	/* color: #464646; */
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -174,6 +174,7 @@ input, select, textarea {
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
+		margin: 2em 0em 1em 0em;
 	}
 
 	h5 {
@@ -234,13 +235,14 @@ input, select, textarea {
 	}
 
 	code {
-		background: #f7f7f7;
+		background: #DCE2EA;
 		border-radius: 0.35em;
-		border: solid 2px #efefef;
+		/* border: solid 1px #efefef; */
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
+		font-weight: 400;
 		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
+		padding: 0.25em 0.4em 0.15em 0.4em;
 	}
 
 	pre {
@@ -2061,7 +2063,7 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background-color: rgba(0, 0, 0, 0.05);
+			/* background-color: rgba(0, 0, 0, 0.05); */
 			/* background: url("images/overlay.png"); */
 			/* border-radius: 0.35em; */
 			content: '';
@@ -2240,7 +2242,7 @@ input, select, textarea {
 			}
 
 			ul.labeled-icons li a {
-				color: inherit;
+				/* color: inherit; */
 			}
 
 			ul.labeled-icons li h3 {
