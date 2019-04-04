@@ -167,8 +167,12 @@ input, select, textarea {
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
-		margin: 1em 0 1em 0;
+		margin: 1em 0 0 0;
 	}
+
+    h1.index{
+      margin: 1em 0 1em 0;
+    }
 
 	h2 {
 		font-size: 1.5em;
@@ -466,6 +470,7 @@ input, select, textarea {
 
 		.row > .col-12 {
 			width: 100%;
+      margin-top: 3em;
 		}
 
 		.row > .off-12 {
@@ -574,7 +579,7 @@ input, select, textarea {
 					padding-top: 5em;
 				}
 
-		@media screen and (max-width: 1800px) {
+		@media screen and (max-width: 2800px) {
 
 			.row {
 				display: flex;
@@ -768,11 +773,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2.5em;
+					margin-left: -1em;
 				}
 
 					.row > * {
-						padding: 0 0 0 2.5em;
+						padding: 0 0 0 1em;
 					}
 
 					.row.gtr-uniform {
@@ -2582,7 +2587,7 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 3em 0;
+		/* margin: 0 0 1em 0; */
 	}
 
 		.work-item .image {
@@ -2725,7 +2730,7 @@ input, select, textarea {
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			/* margin: 4em 0 0 0; */
+			margin: 4em 0 0 0;
 			/* padding: 4em 0 0 0; */
 			height: 100%;
 		}
