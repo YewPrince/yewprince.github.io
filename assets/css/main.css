@@ -2704,6 +2704,7 @@ input, select, textarea {
 			line-height: 1em;
 			margin-left: 0.75em;
 			padding-left: 0.75em;
+      color: var(--color-p5);
 		}
 
 			#footer .copyright li:first-child {
