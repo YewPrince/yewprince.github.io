@@ -114,4 +114,9 @@
 
 			});
 
+			var observer = lozad('.lozad', {
+		    threshold: 0.1 // ratio of element convergence
+			});
+			observer.observe();
+
 })(jQuery);
