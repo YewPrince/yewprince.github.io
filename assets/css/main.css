@@ -2125,7 +2125,7 @@ input, select, textarea {
 			}
 
 			.image.thumb:hover:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
+				background-color: rgba(0,0,0,0.5);
 				opacity: 1.0;
 			}
 
