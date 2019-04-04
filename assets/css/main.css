@@ -2594,7 +2594,7 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			/* font-size: 1em; */
 			margin: 0 0 0.5em 0;
 		}
 
@@ -2812,7 +2812,7 @@ input, select, textarea {
 		border-radius: 0.35em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 		overflow: hidden;
-		padding-bottom: 3em;
+		/* padding-bottom: 3em; */
 	}
 
 		.poptrox-popup .loader {
@@ -2845,10 +2845,10 @@ input, select, textarea {
 			}
 
 		.poptrox-popup .caption {
-			background: #fff;
+			background: none;
 			bottom: 0;
 			cursor: default;
-			font-size: 0.9em;
+			font-size: 0;
 			height: 3em;
 			left: 0;
 			line-height: 2.8em;
